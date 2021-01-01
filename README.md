@@ -65,9 +65,9 @@
 
 - On PYCHARM,
 
-1. Open project: /Users/fcp/workspace/1.git/1.django/wttd
+1. Open project: ~/wttd
 2. Show the python interpreter
-3. Open /Users/fcp/workspace/1.git/1.django/wttd/eventex/settings.py
+3. Open ~/wttd/eventex/settings.py
 4. Find and add the following:
     ```python
        INSTALLED_APPS = [
