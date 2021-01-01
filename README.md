@@ -317,6 +317,10 @@ called `~/wttd/core/static/`
 
 5. Push your project to heroku
     ```zsh
-    git push heroku master --force
+    git push heroku main --force
     ```
-
+    - if fails because of setuptools, try:                                                                                   
+    ```zsh
+    pip install setuptools --upgrade     
+    pip list --format=freeze > requirements.txt  
+    ```
