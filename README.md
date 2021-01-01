@@ -323,4 +323,7 @@ called `~/wttd/core/static/`
     ```zsh
     pip install setuptools --upgrade     
     pip list --format=freeze > requirements.txt  
+    
+    # run the following again:
+    git push heroku main --force 
     ```
