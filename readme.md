@@ -272,6 +272,9 @@ called `~/wttd/core/static/`
 4. Add .gitignore
     ```zsh
     git add .gitignore
+    
+    # add the following inside .gitignore
+    
     ```
 5. Add the rest of the files
     ```zsh
