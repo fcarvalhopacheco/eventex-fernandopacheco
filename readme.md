@@ -315,4 +315,3 @@ called `~/wttd/core/static/`
     git push heroku master --force
     ```
 
-
