@@ -274,7 +274,12 @@ called `~/wttd/core/static/`
     git add .gitignore
     
     # add the following inside .gitignore
-    
+   .env
+    .idea
+    *.sqlite3
+    *pyc
+    __pycache__
+ 
     ```
 5. Add the rest of the files
     ```zsh
