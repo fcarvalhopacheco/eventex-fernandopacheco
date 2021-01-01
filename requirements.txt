@@ -9,5 +9,7 @@ psycopg2-binary==2.8.6
 pystache==0.5.4
 python-decouple==3.3
 pytz==2020.5
+setuptools==49.6.0.post20201009
 sqlparse==0.4.1
 static==1.1.1
+wheel==0.36.2
