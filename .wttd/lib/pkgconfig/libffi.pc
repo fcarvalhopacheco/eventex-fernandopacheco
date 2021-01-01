@@ -1,0 +1,11 @@
+prefix=/Users/fcp/workspace/1.git/1.django/wttd/.wttd
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/fcp/workspace/1.git/1.django/wttd/.wttd/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

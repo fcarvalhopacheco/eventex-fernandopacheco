@@ -1,0 +1,1021 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Users/fcp/miniconda3/pkgs/pystache-0.5.4-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/pystache-0.5.4-py3.6.egg-info/PKG-INFO",
+    "lib/python3.9/site-packages/pystache-0.5.4-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.9/site-packages/pystache-0.5.4-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.9/site-packages/pystache-0.5.4-py3.6.egg-info/entry_points.txt",
+    "lib/python3.9/site-packages/pystache-0.5.4-py3.6.egg-info/top_level.txt",
+    "lib/python3.9/site-packages/pystache/__init__.py",
+    "lib/python3.9/site-packages/pystache/commands/__init__.py",
+    "lib/python3.9/site-packages/pystache/commands/render.py",
+    "lib/python3.9/site-packages/pystache/commands/test.py",
+    "lib/python3.9/site-packages/pystache/common.py",
+    "lib/python3.9/site-packages/pystache/context.py",
+    "lib/python3.9/site-packages/pystache/defaults.py",
+    "lib/python3.9/site-packages/pystache/init.py",
+    "lib/python3.9/site-packages/pystache/loader.py",
+    "lib/python3.9/site-packages/pystache/locator.py",
+    "lib/python3.9/site-packages/pystache/parsed.py",
+    "lib/python3.9/site-packages/pystache/parser.py",
+    "lib/python3.9/site-packages/pystache/renderengine.py",
+    "lib/python3.9/site-packages/pystache/renderer.py",
+    "lib/python3.9/site-packages/pystache/specloader.py",
+    "lib/python3.9/site-packages/pystache/template_spec.py",
+    "lib/python3.9/site-packages/pystache/tests/__init__.py",
+    "lib/python3.9/site-packages/pystache/tests/benchmark.py",
+    "lib/python3.9/site-packages/pystache/tests/common.py",
+    "lib/python3.9/site-packages/pystache/tests/data/__init__.py",
+    "lib/python3.9/site-packages/pystache/tests/data/ascii.mustache",
+    "lib/python3.9/site-packages/pystache/tests/data/duplicate.mustache",
+    "lib/python3.9/site-packages/pystache/tests/data/locator/__init__.py",
+    "lib/python3.9/site-packages/pystache/tests/data/locator/duplicate.mustache",
+    "lib/python3.9/site-packages/pystache/tests/data/locator/template.txt",
+    "lib/python3.9/site-packages/pystache/tests/data/non_ascii.mustache",
+    "lib/python3.9/site-packages/pystache/tests/data/sample_view.mustache",
+    "lib/python3.9/site-packages/pystache/tests/data/say_hello.mustache",
+    "lib/python3.9/site-packages/pystache/tests/data/views.py",
+    "lib/python3.9/site-packages/pystache/tests/doctesting.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/__init__.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/comments.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/comments.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/complex.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/complex.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/delimiters.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/delimiters.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/double_section.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/double_section.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/escaped.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/escaped.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/inner_partial.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/inner_partial.txt",
+    "lib/python3.9/site-packages/pystache/tests/examples/inverted.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/inverted.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/lambdas.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/lambdas.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/looping_partial.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/nested_context.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/nested_context.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/partial_in_partial.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/partial_with_lambda.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/partial_with_partial_and_lambda.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/partials_with_lambdas.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/readme.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/say_hello.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/simple.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/simple.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/tagless.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/template_partial.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/template_partial.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/template_partial.txt",
+    "lib/python3.9/site-packages/pystache/tests/examples/unescaped.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/unescaped.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/unicode_input.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/unicode_input.py",
+    "lib/python3.9/site-packages/pystache/tests/examples/unicode_output.mustache",
+    "lib/python3.9/site-packages/pystache/tests/examples/unicode_output.py",
+    "lib/python3.9/site-packages/pystache/tests/main.py",
+    "lib/python3.9/site-packages/pystache/tests/spectesting.py",
+    "lib/python3.9/site-packages/pystache/tests/test___init__.py",
+    "lib/python3.9/site-packages/pystache/tests/test_commands.py",
+    "lib/python3.9/site-packages/pystache/tests/test_context.py",
+    "lib/python3.9/site-packages/pystache/tests/test_defaults.py",
+    "lib/python3.9/site-packages/pystache/tests/test_examples.py",
+    "lib/python3.9/site-packages/pystache/tests/test_loader.py",
+    "lib/python3.9/site-packages/pystache/tests/test_locator.py",
+    "lib/python3.9/site-packages/pystache/tests/test_parser.py",
+    "lib/python3.9/site-packages/pystache/tests/test_pystache.py",
+    "lib/python3.9/site-packages/pystache/tests/test_renderengine.py",
+    "lib/python3.9/site-packages/pystache/tests/test_renderer.py",
+    "lib/python3.9/site-packages/pystache/tests/test_simple.py",
+    "lib/python3.9/site-packages/pystache/tests/test_specloader.py",
+    "lib/python3.9/site-packages/pystache/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/commands/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/commands/__pycache__/render.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/commands/__pycache__/test.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/context.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/defaults.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/init.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/loader.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/locator.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/parsed.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/parser.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/renderengine.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/renderer.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/specloader.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/__pycache__/template_spec.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/benchmark.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/data/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/data/locator/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/data/__pycache__/views.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/doctesting.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/comments.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/complex.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/delimiters.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/double_section.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/escaped.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/inverted.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/lambdas.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/nested_context.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/partials_with_lambdas.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/readme.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/simple.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/template_partial.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/unescaped.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/unicode_input.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/unicode_output.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/main.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/spectesting.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test___init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_commands.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_context.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_defaults.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_examples.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_loader.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_locator.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_parser.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_pystache.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_renderengine.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_renderer.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_simple.cpython-39.pyc",
+    "lib/python3.9/site-packages/pystache/tests/__pycache__/test_specloader.cpython-39.pyc",
+    "bin/pystache",
+    "bin/pystache-test"
+  ],
+  "fn": "pystache-0.5.4-py_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/fcp/miniconda3/pkgs/pystache-0.5.4-py_1",
+    "type": 1
+  },
+  "md5": "98ff029f925699b6f7d673fd6a81176d",
+  "name": "pystache",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/fcp/miniconda3/pkgs/pystache-0.5.4-py_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pystache-0.5.4-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "0b613ce1d2ebb05879b8910bd506c1c4be1723647d4bca366f6168f8963b0553",
+        "sha256_in_prefix": "0b613ce1d2ebb05879b8910bd506c1c4be1723647d4bca366f6168f8963b0553",
+        "size_in_bytes": 22205
+      },
+      {
+        "_path": "site-packages/pystache-0.5.4-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "4caab40278fc11daa928437aa4dfb843fdd82dd1e5ff1fadc21e02a166c10c73",
+        "sha256_in_prefix": "4caab40278fc11daa928437aa4dfb843fdd82dd1e5ff1fadc21e02a166c10c73",
+        "size_in_bytes": 3217
+      },
+      {
+        "_path": "site-packages/pystache-0.5.4-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/pystache-0.5.4-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "2fec7a36a5942ac0680d27f6be01a564e3348b9fbdf161d63c509de41eb29fd6",
+        "sha256_in_prefix": "2fec7a36a5942ac0680d27f6be01a564e3348b9fbdf161d63c509de41eb29fd6",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/pystache-0.5.4-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0019e337224bbdaaa5406503d643adbb654983bde1dc9a4ce69fb15e7f7c1007",
+        "sha256_in_prefix": "0019e337224bbdaaa5406503d643adbb654983bde1dc9a4ce69fb15e7f7c1007",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/pystache/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "87b40c5a0cb43d76eadf28d5db067df15e1fe8d2c427d50d23d579ddd79d2a88",
+        "sha256_in_prefix": "87b40c5a0cb43d76eadf28d5db067df15e1fe8d2c427d50d23d579ddd79d2a88",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "site-packages/pystache/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "sha256_in_prefix": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pystache/commands/render.py",
+        "path_type": "hardlink",
+        "sha256": "61a2ee42926ae265f8a40932f4a2c174002ebf50003cd45588e056616a8d6fac",
+        "sha256_in_prefix": "61a2ee42926ae265f8a40932f4a2c174002ebf50003cd45588e056616a8d6fac",
+        "size_in_bytes": 2374
+      },
+      {
+        "_path": "site-packages/pystache/commands/test.py",
+        "path_type": "hardlink",
+        "sha256": "67636b24562c7d0777364e234ebd8742a17ab64e352e80c00e6ca5ea4cf1c275",
+        "sha256_in_prefix": "67636b24562c7d0777364e234ebd8742a17ab64e352e80c00e6ca5ea4cf1c275",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "site-packages/pystache/common.py",
+        "path_type": "hardlink",
+        "sha256": "added6d8be6ca90799010ab9c536232cb51604a6a21ad6fef51b765f0c7a79e8",
+        "sha256_in_prefix": "added6d8be6ca90799010ab9c536232cb51604a6a21ad6fef51b765f0c7a79e8",
+        "size_in_bytes": 2010
+      },
+      {
+        "_path": "site-packages/pystache/context.py",
+        "path_type": "hardlink",
+        "sha256": "d8a312cf4003b3d96c47bb08a8db3d5d821459c44e690e9a77ea4877f0cbdb99",
+        "sha256_in_prefix": "d8a312cf4003b3d96c47bb08a8db3d5d821459c44e690e9a77ea4877f0cbdb99",
+        "size_in_bytes": 11758
+      },
+      {
+        "_path": "site-packages/pystache/defaults.py",
+        "path_type": "hardlink",
+        "sha256": "4e12fcc81bf9c50b8562dbcf978038b6d93098dde793af16fb14307a75acef9c",
+        "sha256_in_prefix": "4e12fcc81bf9c50b8562dbcf978038b6d93098dde793af16fb14307a75acef9c",
+        "size_in_bytes": 2005
+      },
+      {
+        "_path": "site-packages/pystache/init.py",
+        "path_type": "hardlink",
+        "sha256": "476ddb9a1d775104bd9e967e22450d8c451829cb6fc4e7d2cd5598d8246fd63c",
+        "sha256_in_prefix": "476ddb9a1d775104bd9e967e22450d8c451829cb6fc4e7d2cd5598d8246fd63c",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "site-packages/pystache/loader.py",
+        "path_type": "hardlink",
+        "sha256": "427bb530914f39abfc3bdeec731594e1f90e6b7428c4e362ee60ca94a794cdd3",
+        "sha256_in_prefix": "427bb530914f39abfc3bdeec731594e1f90e6b7428c4e362ee60ca94a794cdd3",
+        "size_in_bytes": 4751
+      },
+      {
+        "_path": "site-packages/pystache/locator.py",
+        "path_type": "hardlink",
+        "sha256": "b85f80078050dfc57c10f6b2d40ccbb62bcfda7fa2b5efe147bfe1840547d6d6",
+        "sha256_in_prefix": "b85f80078050dfc57c10f6b2d40ccbb62bcfda7fa2b5efe147bfe1840547d6d6",
+        "size_in_bytes": 4652
+      },
+      {
+        "_path": "site-packages/pystache/parsed.py",
+        "path_type": "hardlink",
+        "sha256": "ca9da09acee312f68460d97ac35efd98d309a53c936b86fc9ccd6612b2b7da50",
+        "sha256_in_prefix": "ca9da09acee312f68460d97ac35efd98d309a53c936b86fc9ccd6612b2b7da50",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "site-packages/pystache/parser.py",
+        "path_type": "hardlink",
+        "sha256": "e9e617d45ebf7605bc70e53031d5af9128c18c5b274f959a64d2ef26c6084d0a",
+        "sha256_in_prefix": "e9e617d45ebf7605bc70e53031d5af9128c18c5b274f959a64d2ef26c6084d0a",
+        "size_in_bytes": 11609
+      },
+      {
+        "_path": "site-packages/pystache/renderengine.py",
+        "path_type": "hardlink",
+        "sha256": "da96d592fcffc3b0006642ade25944221d5380c2a4e3242b1ca13d37063d1ed3",
+        "sha256_in_prefix": "da96d592fcffc3b0006642ade25944221d5380c2a4e3242b1ca13d37063d1ed3",
+        "size_in_bytes": 6735
+      },
+      {
+        "_path": "site-packages/pystache/renderer.py",
+        "path_type": "hardlink",
+        "sha256": "d598e9b42efaaa10f520b3796583cd677f1ca50382d49ed278ee45dadf7e4ef3",
+        "sha256_in_prefix": "d598e9b42efaaa10f520b3796583cd677f1ca50382d49ed278ee45dadf7e4ef3",
+        "size_in_bytes": 16502
+      },
+      {
+        "_path": "site-packages/pystache/specloader.py",
+        "path_type": "hardlink",
+        "sha256": "5dc75461cfb43f544320c57fba835da3dcdd3a027f4678f843d785f361be1c1c",
+        "sha256_in_prefix": "5dc75461cfb43f544320c57fba835da3dcdd3a027f4678f843d785f361be1c1c",
+        "size_in_bytes": 2515
+      },
+      {
+        "_path": "site-packages/pystache/template_spec.py",
+        "path_type": "hardlink",
+        "sha256": "8da8c19bcc1ff976cec4eb243bea4f448da799c8e5fec6d3756ccd691e4e7566",
+        "sha256_in_prefix": "8da8c19bcc1ff976cec4eb243bea4f448da799c8e5fec6d3756ccd691e4e7566",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "site-packages/pystache/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "sha256_in_prefix": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pystache/tests/benchmark.py",
+        "path_type": "hardlink",
+        "sha256": "7994f39a2e04f58fcc8266c75f3d076a1536543a4de57f1839eec0eab528658b",
+        "sha256_in_prefix": "7994f39a2e04f58fcc8266c75f3d076a1536543a4de57f1839eec0eab528658b",
+        "size_in_bytes": 1978
+      },
+      {
+        "_path": "site-packages/pystache/tests/common.py",
+        "path_type": "hardlink",
+        "sha256": "4c4899f6d08c72d82abababe4f0b86cd0fb5f8046a419cec708705e24cdb8cf1",
+        "sha256_in_prefix": "4c4899f6d08c72d82abababe4f0b86cd0fb5f8046a419cec708705e24cdb8cf1",
+        "size_in_bytes": 7066
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "sha256_in_prefix": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/ascii.mustache",
+        "path_type": "hardlink",
+        "sha256": "72779a831d5ca57040a7e3c4612ff47d58aa4b55ee8805a567f5d4565340f74b",
+        "sha256_in_prefix": "72779a831d5ca57040a7e3c4612ff47d58aa4b55ee8805a567f5d4565340f74b",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/duplicate.mustache",
+        "path_type": "hardlink",
+        "sha256": "ae21474968797e7f5958575ae60de23f4aabd65d4586ddd851060be29cd4727e",
+        "sha256_in_prefix": "ae21474968797e7f5958575ae60de23f4aabd65d4586ddd851060be29cd4727e",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/locator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "sha256_in_prefix": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/locator/duplicate.mustache",
+        "path_type": "hardlink",
+        "sha256": "ae21474968797e7f5958575ae60de23f4aabd65d4586ddd851060be29cd4727e",
+        "sha256_in_prefix": "ae21474968797e7f5958575ae60de23f4aabd65d4586ddd851060be29cd4727e",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/locator/template.txt",
+        "path_type": "hardlink",
+        "sha256": "fb1087b4f531838103e1d33c4ad82775d12d76c1b8854caead2a1d14128cbb1b",
+        "sha256_in_prefix": "fb1087b4f531838103e1d33c4ad82775d12d76c1b8854caead2a1d14128cbb1b",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/non_ascii.mustache",
+        "path_type": "hardlink",
+        "sha256": "299820226a2565789e9d6e5c3c454bf8b9d191e4cb60478b3048098c9bd16fbb",
+        "sha256_in_prefix": "299820226a2565789e9d6e5c3c454bf8b9d191e4cb60478b3048098c9bd16fbb",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/sample_view.mustache",
+        "path_type": "hardlink",
+        "sha256": "72779a831d5ca57040a7e3c4612ff47d58aa4b55ee8805a567f5d4565340f74b",
+        "sha256_in_prefix": "72779a831d5ca57040a7e3c4612ff47d58aa4b55ee8805a567f5d4565340f74b",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/say_hello.mustache",
+        "path_type": "hardlink",
+        "sha256": "880ce239fadf194aca04c131314205783a622075f932f37275c745e967ec772d",
+        "sha256_in_prefix": "880ce239fadf194aca04c131314205783a622075f932f37275c745e967ec772d",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/pystache/tests/data/views.py",
+        "path_type": "hardlink",
+        "sha256": "4e6fd56434ecd19e4ffa688dfc22fb6ae67e8a2933e424ec1d2163d4c6b2b5e5",
+        "sha256_in_prefix": "4e6fd56434ecd19e4ffa688dfc22fb6ae67e8a2933e424ec1d2163d4c6b2b5e5",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "site-packages/pystache/tests/doctesting.py",
+        "path_type": "hardlink",
+        "sha256": "076c60c911fa0da8252704e84ee4d483fdaa3ede9a58203f164a238a9328ec1c",
+        "sha256_in_prefix": "076c60c911fa0da8252704e84ee4d483fdaa3ede9a58203f164a238a9328ec1c",
+        "size_in_bytes": 2478
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "sha256_in_prefix": "e5c5613b01f6cca11f5cebbd98442d02cca50c7f5cfae1e589f4bc8d50bcca6d",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/comments.mustache",
+        "path_type": "hardlink",
+        "sha256": "7aefcbbb244ac882a6db85e6d2cbe93cbfcc894b2e34b429bd963d5e96bc0f85",
+        "sha256_in_prefix": "7aefcbbb244ac882a6db85e6d2cbe93cbfcc894b2e34b429bd963d5e96bc0f85",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/comments.py",
+        "path_type": "hardlink",
+        "sha256": "e8c84d20b868d5aa53e417678e202574c83fe20454eb409c2ec19b86bfd72f9c",
+        "sha256_in_prefix": "e8c84d20b868d5aa53e417678e202574c83fe20454eb409c2ec19b86bfd72f9c",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/complex.mustache",
+        "path_type": "hardlink",
+        "sha256": "1b3a4b244bf3cd3601766fc800c790be38b03e75e6b165b0dc567b2716877347",
+        "sha256_in_prefix": "1b3a4b244bf3cd3601766fc800c790be38b03e75e6b165b0dc567b2716877347",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/complex.py",
+        "path_type": "hardlink",
+        "sha256": "3f8470e176c9b85f48c90302969144b3341da0b20c146c48c0561f2dc6b0f962",
+        "sha256_in_prefix": "3f8470e176c9b85f48c90302969144b3341da0b20c146c48c0561f2dc6b0f962",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/delimiters.mustache",
+        "path_type": "hardlink",
+        "sha256": "55c78babac9e5078c4c348200881c7802ea240690e806d0ff7439f5f64ef2c62",
+        "sha256_in_prefix": "55c78babac9e5078c4c348200881c7802ea240690e806d0ff7439f5f64ef2c62",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/delimiters.py",
+        "path_type": "hardlink",
+        "sha256": "cec2d2f500c4f1b2dc680fcf409b93d12d1bc652ac1d521b2209e00cc6b1b29a",
+        "sha256_in_prefix": "cec2d2f500c4f1b2dc680fcf409b93d12d1bc652ac1d521b2209e00cc6b1b29a",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/double_section.mustache",
+        "path_type": "hardlink",
+        "sha256": "a77b3e401cb68ad5693596abf2e2abe4cabfefe5f9902059e8040dc912333069",
+        "sha256_in_prefix": "a77b3e401cb68ad5693596abf2e2abe4cabfefe5f9902059e8040dc912333069",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/double_section.py",
+        "path_type": "hardlink",
+        "sha256": "f22707719e4d948a8f94035b68814c1a1ae4ba993a1793a40b39d2ae04f20824",
+        "sha256_in_prefix": "f22707719e4d948a8f94035b68814c1a1ae4ba993a1793a40b39d2ae04f20824",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/escaped.mustache",
+        "path_type": "hardlink",
+        "sha256": "4e1df12fd5e679b7bdaafe259f349f94175b4154900ded81942a83707d2a3405",
+        "sha256_in_prefix": "4e1df12fd5e679b7bdaafe259f349f94175b4154900ded81942a83707d2a3405",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/escaped.py",
+        "path_type": "hardlink",
+        "sha256": "6eae24870636c74e941e7475e0c4d87e355c7f05a3c80fd290baef77b5e3a6e1",
+        "sha256_in_prefix": "6eae24870636c74e941e7475e0c4d87e355c7f05a3c80fd290baef77b5e3a6e1",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/inner_partial.mustache",
+        "path_type": "hardlink",
+        "sha256": "9c3744377c93c9187e3bd35ac57fd6b07c879163e4180c1cefc2fd0621fa5dd0",
+        "sha256_in_prefix": "9c3744377c93c9187e3bd35ac57fd6b07c879163e4180c1cefc2fd0621fa5dd0",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/inner_partial.txt",
+        "path_type": "hardlink",
+        "sha256": "9600d630cd18bcb20c3f9dabe3560a1743c28f3fdb74cdc490d29f939417221a",
+        "sha256_in_prefix": "9600d630cd18bcb20c3f9dabe3560a1743c28f3fdb74cdc490d29f939417221a",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/inverted.mustache",
+        "path_type": "hardlink",
+        "sha256": "14872b9fef3b257c6ab9f239c571261db94fba3fc94bace5e25720999a68491a",
+        "sha256_in_prefix": "14872b9fef3b257c6ab9f239c571261db94fba3fc94bace5e25720999a68491a",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/inverted.py",
+        "path_type": "hardlink",
+        "sha256": "c24793d6d4c8235ac60ca9a47c51f3c65c249b615b7b0ad69ae3904ed4c34781",
+        "sha256_in_prefix": "c24793d6d4c8235ac60ca9a47c51f3c65c249b615b7b0ad69ae3904ed4c34781",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/lambdas.mustache",
+        "path_type": "hardlink",
+        "sha256": "1817e27c33fd8afdaecc8376f07fbf6be5befe8b378971db486fbdcd62493862",
+        "sha256_in_prefix": "1817e27c33fd8afdaecc8376f07fbf6be5befe8b378971db486fbdcd62493862",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/lambdas.py",
+        "path_type": "hardlink",
+        "sha256": "9f7e5c1d722996c7dcfb7ea9d4b550b58b8a4d254704cb822ad5ca17c82216fa",
+        "sha256_in_prefix": "9f7e5c1d722996c7dcfb7ea9d4b550b58b8a4d254704cb822ad5ca17c82216fa",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/looping_partial.mustache",
+        "path_type": "hardlink",
+        "sha256": "91ee4fd6107518a37c03260c605c44359528a670085665b1eab08951d2f80ce3",
+        "sha256_in_prefix": "91ee4fd6107518a37c03260c605c44359528a670085665b1eab08951d2f80ce3",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/nested_context.mustache",
+        "path_type": "hardlink",
+        "sha256": "c1b1cb33008ddb003111df90cd476fd42ce63d8973febd137615647ffd554dc4",
+        "sha256_in_prefix": "c1b1cb33008ddb003111df90cd476fd42ce63d8973febd137615647ffd554dc4",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/nested_context.py",
+        "path_type": "hardlink",
+        "sha256": "c6b4122a961b2d1c72d9ebc1e11e636be0b7ece8d30389e428ccd1849cf1b220",
+        "sha256_in_prefix": "c6b4122a961b2d1c72d9ebc1e11e636be0b7ece8d30389e428ccd1849cf1b220",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/partial_in_partial.mustache",
+        "path_type": "hardlink",
+        "sha256": "a8ccf94dd1d69fae7945cc3b53c27d58ee4bfd75143336dd958988a0e5c1b2b4",
+        "sha256_in_prefix": "a8ccf94dd1d69fae7945cc3b53c27d58ee4bfd75143336dd958988a0e5c1b2b4",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/partial_with_lambda.mustache",
+        "path_type": "hardlink",
+        "sha256": "e2fb6e955616d2df531380be66d6e4cb8a741a43a39811c6c12c4866d8d20184",
+        "sha256_in_prefix": "e2fb6e955616d2df531380be66d6e4cb8a741a43a39811c6c12c4866d8d20184",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/partial_with_partial_and_lambda.mustache",
+        "path_type": "hardlink",
+        "sha256": "0d9e1eee251d35d6d1caeb5e51f1ca9d92c21f4edac03ab444d4dd6d69e08927",
+        "sha256_in_prefix": "0d9e1eee251d35d6d1caeb5e51f1ca9d92c21f4edac03ab444d4dd6d69e08927",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/partials_with_lambdas.py",
+        "path_type": "hardlink",
+        "sha256": "cbfd8b01bc989d6051f069e5e60aa54b72b08a9b1936d3f40b5e0032c9146660",
+        "sha256_in_prefix": "cbfd8b01bc989d6051f069e5e60aa54b72b08a9b1936d3f40b5e0032c9146660",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/readme.py",
+        "path_type": "hardlink",
+        "sha256": "da8c5c181cebc5777356b814eb807fed1d3fdec35370d3ac0a8eacea240983c7",
+        "sha256_in_prefix": "da8c5c181cebc5777356b814eb807fed1d3fdec35370d3ac0a8eacea240983c7",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/say_hello.mustache",
+        "path_type": "hardlink",
+        "sha256": "70f001bba88a46c3af2cef67a483b4bd7bf6bf83cb384b6110ed539445a7ccb7",
+        "sha256_in_prefix": "70f001bba88a46c3af2cef67a483b4bd7bf6bf83cb384b6110ed539445a7ccb7",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/simple.mustache",
+        "path_type": "hardlink",
+        "sha256": "e56645f3c0d5ff90728839f6a54571e8811777a8780a3f9fbfc70419e75b13dc",
+        "sha256_in_prefix": "e56645f3c0d5ff90728839f6a54571e8811777a8780a3f9fbfc70419e75b13dc",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/simple.py",
+        "path_type": "hardlink",
+        "sha256": "ae4d189283da6f65d2489045bf7971db84e00cfe0423234adc3552388fa3f956",
+        "sha256_in_prefix": "ae4d189283da6f65d2489045bf7971db84e00cfe0423234adc3552388fa3f956",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/tagless.mustache",
+        "path_type": "hardlink",
+        "sha256": "650f8779afd039b35003f042cd3737d6cdb06a8b37ee947e6d28d684d7eda8a3",
+        "sha256_in_prefix": "650f8779afd039b35003f042cd3737d6cdb06a8b37ee947e6d28d684d7eda8a3",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/template_partial.mustache",
+        "path_type": "hardlink",
+        "sha256": "6aecc62ad49c2e03cc29fc882a67ee7913da795b4f00d65d7e442c0d639d6755",
+        "sha256_in_prefix": "6aecc62ad49c2e03cc29fc882a67ee7913da795b4f00d65d7e442c0d639d6755",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/template_partial.py",
+        "path_type": "hardlink",
+        "sha256": "97ce8ae53a197160ddc7cf279482dde054c1d85150969defef4b16047c22c968",
+        "sha256_in_prefix": "97ce8ae53a197160ddc7cf279482dde054c1d85150969defef4b16047c22c968",
+        "size_in_bytes": 523
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/template_partial.txt",
+        "path_type": "hardlink",
+        "sha256": "8a3b7b8b835db000441d2b6b33181f1555db1696e986ef27b2fe18def10a9060",
+        "sha256_in_prefix": "8a3b7b8b835db000441d2b6b33181f1555db1696e986ef27b2fe18def10a9060",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/unescaped.mustache",
+        "path_type": "hardlink",
+        "sha256": "7ee011f60cd9a592809a243aaa803aa03cd12b6d5e2ebd5928e5bd5d474d03ae",
+        "sha256_in_prefix": "7ee011f60cd9a592809a243aaa803aa03cd12b6d5e2ebd5928e5bd5d474d03ae",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/unescaped.py",
+        "path_type": "hardlink",
+        "sha256": "8a8258ee75becd122a92ae1a1ab184fc2b999288e9e08b84a002cfbc4d86755f",
+        "sha256_in_prefix": "8a8258ee75becd122a92ae1a1ab184fc2b999288e9e08b84a002cfbc4d86755f",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/unicode_input.mustache",
+        "path_type": "hardlink",
+        "sha256": "bef7c2493f307962cfaccb84748251ced81bb61b87924b97304ee7d911eedf3c",
+        "sha256_in_prefix": "bef7c2493f307962cfaccb84748251ced81bb61b87924b97304ee7d911eedf3c",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/unicode_input.py",
+        "path_type": "hardlink",
+        "sha256": "ec5f5f73f6698d83c37a90e023f4b06ddbf38534bb5950d1f7c7f61429e84356",
+        "sha256_in_prefix": "ec5f5f73f6698d83c37a90e023f4b06ddbf38534bb5950d1f7c7f61429e84356",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/unicode_output.mustache",
+        "path_type": "hardlink",
+        "sha256": "83549e9a5241a1a584e3774fb152b838809d028b75b858c5872874db944d3d70",
+        "sha256_in_prefix": "83549e9a5241a1a584e3774fb152b838809d028b75b858c5872874db944d3d70",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/pystache/tests/examples/unicode_output.py",
+        "path_type": "hardlink",
+        "sha256": "ab0b0fabdd52f0a950fe0500752ec3cd821bfa8bfb6fbd83ebe55f94209c6fa0",
+        "sha256_in_prefix": "ab0b0fabdd52f0a950fe0500752ec3cd821bfa8bfb6fbd83ebe55f94209c6fa0",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "site-packages/pystache/tests/main.py",
+        "path_type": "hardlink",
+        "sha256": "300e9cf0ccf35304f8531e26ae5fe0aa4fa914e31e2ebaf1452be61a491186f6",
+        "sha256_in_prefix": "300e9cf0ccf35304f8531e26ae5fe0aa4fa914e31e2ebaf1452be61a491186f6",
+        "size_in_bytes": 5855
+      },
+      {
+        "_path": "site-packages/pystache/tests/spectesting.py",
+        "path_type": "hardlink",
+        "sha256": "f9cabe60b58198ad741b3e899fdec6b4457be17e5cd6037b34ba69590aef2a66",
+        "sha256_in_prefix": "f9cabe60b58198ad741b3e899fdec6b4457be17e5cd6037b34ba69590aef2a66",
+        "size_in_bytes": 8215
+      },
+      {
+        "_path": "site-packages/pystache/tests/test___init__.py",
+        "path_type": "hardlink",
+        "sha256": "bab9c06b280fbec2e6fcd18ca4b17338e38eb4d8fe4fea378f0170aa5dcd54d7",
+        "sha256_in_prefix": "bab9c06b280fbec2e6fcd18ca4b17338e38eb4d8fe4fea378f0170aa5dcd54d7",
+        "size_in_bytes": 811
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_commands.py",
+        "path_type": "hardlink",
+        "sha256": "ffcedc06041e4c77678d03893f6012f03c7d2df6e51cc19a931e875004f4cc50",
+        "sha256_in_prefix": "ffcedc06041e4c77678d03893f6012f03c7d2df6e51cc19a931e875004f4cc50",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_context.py",
+        "path_type": "hardlink",
+        "sha256": "15478ba808e12061dc9a3c57b4a6f3bce884e5716db89935f3b731ced42b11a5",
+        "sha256_in_prefix": "15478ba808e12061dc9a3c57b4a6f3bce884e5716db89935f3b731ced42b11a5",
+        "size_in_bytes": 14750
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_defaults.py",
+        "path_type": "hardlink",
+        "sha256": "3ac7507264a26cdb95a9e5501b79e1fb3f5964d647b92c1e29da61703816ce15",
+        "sha256_in_prefix": "3ac7507264a26cdb95a9e5501b79e1fb3f5964d647b92c1e29da61703816ce15",
+        "size_in_bytes": 2150
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_examples.py",
+        "path_type": "hardlink",
+        "sha256": "7025e64371874a90c90835eec4d96209e905e5644133af6699a9641288a15cc5",
+        "sha256_in_prefix": "7025e64371874a90c90835eec4d96209e905e5644133af6699a9641288a15cc5",
+        "size_in_bytes": 3280
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_loader.py",
+        "path_type": "hardlink",
+        "sha256": "9716e4bc82869831e8ee063eb31d3254d97c18115449a2ae5c771b63d03952b2",
+        "sha256_in_prefix": "9716e4bc82869831e8ee063eb31d3254d97c18115449a2ae5c771b63d03952b2",
+        "size_in_bytes": 5758
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_locator.py",
+        "path_type": "hardlink",
+        "sha256": "af7a80170a2e0b7cded85426464f0f104eeaf8c5746f761ae014e95b0136e53a",
+        "sha256_in_prefix": "af7a80170a2e0b7cded85426464f0f104eeaf8c5746f761ae014e95b0136e53a",
+        "size_in_bytes": 5549
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_parser.py",
+        "path_type": "hardlink",
+        "sha256": "408ad086e987da42b755f343323efbe1482c4a63a9e0e21f3d0d6c002a051e05",
+        "sha256_in_prefix": "408ad086e987da42b755f343323efbe1482c4a63a9e0e21f3d0d6c002a051e05",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_pystache.py",
+        "path_type": "hardlink",
+        "sha256": "39b231b08e77be5e79cb8d4726bf47f0929fa9549d5e34a903a888ece7b7d9b5",
+        "sha256_in_prefix": "39b231b08e77be5e79cb8d4726bf47f0929fa9549d5e34a903a888ece7b7d9b5",
+        "size_in_bytes": 4778
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_renderengine.py",
+        "path_type": "hardlink",
+        "sha256": "ea95cdda915b2baeda60a3ceb0ef81ca09259d7d68f16752457a0f18254a8381",
+        "sha256_in_prefix": "ea95cdda915b2baeda60a3ceb0ef81ca09259d7d68f16752457a0f18254a8381",
+        "size_in_bytes": 26505
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_renderer.py",
+        "path_type": "hardlink",
+        "sha256": "efd7e2646f5376b6dae664e0f6a7b7d4e6714bd794e1309204262d567e2484cf",
+        "sha256_in_prefix": "efd7e2646f5376b6dae664e0f6a7b7d4e6714bd794e1309204262d567e2484cf",
+        "size_in_bytes": 21054
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_simple.py",
+        "path_type": "hardlink",
+        "sha256": "6b3d3206c5d1bd3f68c2c2e1e57a2892e74fadcaccfd495a23446a5e972b3c62",
+        "sha256_in_prefix": "6b3d3206c5d1bd3f68c2c2e1e57a2892e74fadcaccfd495a23446a5e972b3c62",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "site-packages/pystache/tests/test_specloader.py",
+        "path_type": "hardlink",
+        "sha256": "d0f289f4bac37776c8017260c481e9708d324b4f277bb2b3c7612498683060ce",
+        "sha256_in_prefix": "d0f289f4bac37776c8017260c481e9708d324b4f277bb2b3c7612498683060ce",
+        "size_in_bytes": 13166
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/commands/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/commands/__pycache__/render.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/commands/__pycache__/test.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/context.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/defaults.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/init.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/loader.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/locator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/parsed.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/parser.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/renderengine.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/renderer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/specloader.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/__pycache__/template_spec.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/benchmark.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/data/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/data/locator/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/data/__pycache__/views.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/doctesting.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/comments.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/complex.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/delimiters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/double_section.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/escaped.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/inverted.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/lambdas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/nested_context.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/partials_with_lambdas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/readme.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/simple.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/template_partial.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/unescaped.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/unicode_input.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/examples/__pycache__/unicode_output.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/main.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/spectesting.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test___init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_commands.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_context.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_defaults.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_examples.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_loader.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_locator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_parser.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_pystache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_renderengine.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_renderer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_simple.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pystache/tests/__pycache__/test_specloader.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/pystache",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/pystache-test",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6014ef1e5a83a066e5eb0b3ffd8dac5e11fb0ff532563d9312deb0f4b1812301",
+  "size": 51948,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pystache-0.5.4-py_1.tar.bz2",
+  "version": "0.5.4"
+}

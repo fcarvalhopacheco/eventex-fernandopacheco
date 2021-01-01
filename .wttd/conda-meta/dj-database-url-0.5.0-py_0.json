@@ -1,0 +1,100 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "django >=1.8",
+    "python"
+  ],
+  "extracted_package_dir": "/Users/fcp/miniconda3/pkgs/dj-database-url-0.5.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/dj_database_url-0.5.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/dj_database_url.py",
+    "lib/python3.9/site-packages/__pycache__/dj_database_url.cpython-39.pyc"
+  ],
+  "fn": "dj-database-url-0.5.0-py_0.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/fcp/miniconda3/pkgs/dj-database-url-0.5.0-py_0",
+    "type": 1
+  },
+  "md5": "89e73ae0760d264755f46d194fc466ad",
+  "name": "dj-database-url",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/fcp/miniconda3/pkgs/dj-database-url-0.5.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dj_database_url-0.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dj_database_url-0.5.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0e3a40e50dfdef7d75e4c34ec2cb9d72eb9e15bfb8cf765fd0442be923557583",
+        "sha256_in_prefix": "0e3a40e50dfdef7d75e4c34ec2cb9d72eb9e15bfb8cf765fd0442be923557583",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "site-packages/dj_database_url-0.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a635ab2d02ba75954183b8d6194be2a26d428a317e56f1b5f070af08afa2a86d",
+        "sha256_in_prefix": "a635ab2d02ba75954183b8d6194be2a26d428a317e56f1b5f070af08afa2a86d",
+        "size_in_bytes": 2640
+      },
+      {
+        "_path": "site-packages/dj_database_url-0.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dee352faabddb0cae61fcd8a8aee321d8ace1ee1f97f7d66c66eb59c1117a367",
+        "sha256_in_prefix": "dee352faabddb0cae61fcd8a8aee321d8ace1ee1f97f7d66c66eb59c1117a367",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "site-packages/dj_database_url-0.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "sha256_in_prefix": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dj_database_url-0.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a67b69399cfdf11b8aaf3dbbe7c344ee955f338106eb33bfd08062614aea4bde",
+        "sha256_in_prefix": "a67b69399cfdf11b8aaf3dbbe7c344ee955f338106eb33bfd08062614aea4bde",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/dj_database_url.py",
+        "path_type": "hardlink",
+        "sha256": "cbb51e34be085699c53fc534649c805310a474f8dabc89b5752642334b228955",
+        "sha256_in_prefix": "cbb51e34be085699c53fc534649c805310a474f8dabc89b5752642334b228955",
+        "size_in_bytes": 4446
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/dj_database_url.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "dj-database-url",
+  "sha256": "6d199b404f31b6136f8783999aea54749539c655f325eed40958c047a5aa2ee8",
+  "size": 7777,
+  "subdir": "noarch",
+  "timestamp": 1582745831015,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dj-database-url-0.5.0-py_0.tar.bz2",
+  "version": "0.5.0"
+}

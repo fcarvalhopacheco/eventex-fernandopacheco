@@ -1,0 +1,396 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Users/fcp/miniconda3/pkgs/sqlparse-0.4.1-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/AUTHORS",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/sqlparse-0.4.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/sqlparse/__init__.py",
+    "lib/python3.9/site-packages/sqlparse/__main__.py",
+    "lib/python3.9/site-packages/sqlparse/cli.py",
+    "lib/python3.9/site-packages/sqlparse/engine/__init__.py",
+    "lib/python3.9/site-packages/sqlparse/engine/filter_stack.py",
+    "lib/python3.9/site-packages/sqlparse/engine/grouping.py",
+    "lib/python3.9/site-packages/sqlparse/engine/statement_splitter.py",
+    "lib/python3.9/site-packages/sqlparse/exceptions.py",
+    "lib/python3.9/site-packages/sqlparse/filters/__init__.py",
+    "lib/python3.9/site-packages/sqlparse/filters/aligned_indent.py",
+    "lib/python3.9/site-packages/sqlparse/filters/others.py",
+    "lib/python3.9/site-packages/sqlparse/filters/output.py",
+    "lib/python3.9/site-packages/sqlparse/filters/reindent.py",
+    "lib/python3.9/site-packages/sqlparse/filters/right_margin.py",
+    "lib/python3.9/site-packages/sqlparse/filters/tokens.py",
+    "lib/python3.9/site-packages/sqlparse/formatter.py",
+    "lib/python3.9/site-packages/sqlparse/keywords.py",
+    "lib/python3.9/site-packages/sqlparse/lexer.py",
+    "lib/python3.9/site-packages/sqlparse/sql.py",
+    "lib/python3.9/site-packages/sqlparse/tokens.py",
+    "lib/python3.9/site-packages/sqlparse/utils.py",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/cli.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/engine/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/engine/__pycache__/filter_stack.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/engine/__pycache__/grouping.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/engine/__pycache__/statement_splitter.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/filters/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/filters/__pycache__/aligned_indent.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/filters/__pycache__/others.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/filters/__pycache__/output.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/filters/__pycache__/reindent.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/filters/__pycache__/right_margin.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/filters/__pycache__/tokens.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/formatter.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/keywords.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/lexer.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/sql.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/tokens.cpython-39.pyc",
+    "lib/python3.9/site-packages/sqlparse/__pycache__/utils.cpython-39.pyc",
+    "bin/sqlformat"
+  ],
+  "fn": "sqlparse-0.4.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/fcp/miniconda3/pkgs/sqlparse-0.4.1-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "009a8c5d2c3a17b25bfe79edeb64e0f3",
+  "name": "sqlparse",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/fcp/miniconda3/pkgs/sqlparse-0.4.1-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "1c0e8313a8603208c579a304308f38eeda0fb4fa4a9afe54b906af9cc99000a9",
+        "sha256_in_prefix": "1c0e8313a8603208c579a304308f38eeda0fb4fa4a9afe54b906af9cc99000a9",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c1938235b80d39e93138eae89edc3af67e18ecbc40d266529fa57b2dce426310",
+        "sha256_in_prefix": "c1938235b80d39e93138eae89edc3af67e18ecbc40d266529fa57b2dce426310",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ffe960aec3ef096356b8bb72fa06118e8477098fa48200d1170bea93c49395af",
+        "sha256_in_prefix": "ffe960aec3ef096356b8bb72fa06118e8477098fa48200d1170bea93c49395af",
+        "size_in_bytes": 3446
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "62d966015693a671fbb96203cc79b82c320c2ff9009c568025c727fa32fc71a8",
+        "sha256_in_prefix": "62d966015693a671fbb96203cc79b82c320c2ff9009c568025c727fa32fc71a8",
+        "size_in_bytes": 3756
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0ea368b207a34f5fd7a19aca728d4c8409c2cf8eb47d6e820672dea9c264a10b",
+        "sha256_in_prefix": "0ea368b207a34f5fd7a19aca728d4c8409c2cf8eb47d6e820672dea9c264a10b",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4b65b184f967ef35f26ca444ef77a40627171e1eff057f8a60615965a186aa9f",
+        "sha256_in_prefix": "4b65b184f967ef35f26ca444ef77a40627171e1eff057f8a60615965a186aa9f",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/sqlparse-0.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "791622b0e47b77c12d2ca5ee59450000c3a138322d3aaae4a71900183f02212a",
+        "sha256_in_prefix": "791622b0e47b77c12d2ca5ee59450000c3a138322d3aaae4a71900183f02212a",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/sqlparse/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "366e9c11d939d57e013df7100971977421eb1d561b4637811b18f5df8d4a0272",
+        "sha256_in_prefix": "366e9c11d939d57e013df7100971977421eb1d561b4637811b18f5df8d4a0272",
+        "size_in_bytes": 2180
+      },
+      {
+        "_path": "site-packages/sqlparse/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "d6385514b1e566ce0d509a00b87bd040a5a0ca43d54dd81e13c5785c1e56433c",
+        "sha256_in_prefix": "d6385514b1e566ce0d509a00b87bd040a5a0ca43d54dd81e13c5785c1e56433c",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "site-packages/sqlparse/cli.py",
+        "path_type": "hardlink",
+        "sha256": "f37807816d264d05c96eff88b6900465aabbfb696f5a28f49a0d9c5661baeca0",
+        "sha256_in_prefix": "f37807816d264d05c96eff88b6900465aabbfb696f5a28f49a0d9c5661baeca0",
+        "size_in_bytes": 5712
+      },
+      {
+        "_path": "site-packages/sqlparse/engine/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8bd921d1448c8e4d5bc0a3c54e7e8ad0f282e791ceaaf9e4a311e2d6ded871c1",
+        "sha256_in_prefix": "8bd921d1448c8e4d5bc0a3c54e7e8ad0f282e791ceaaf9e4a311e2d6ded871c1",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "site-packages/sqlparse/engine/filter_stack.py",
+        "path_type": "hardlink",
+        "sha256": "70877dbe7cf42a9b618379637675f621debebf3d33a4a1e8315fc5a84604b185",
+        "sha256_in_prefix": "70877dbe7cf42a9b618379637675f621debebf3d33a4a1e8315fc5a84604b185",
+        "size_in_bytes": 1193
+      },
+      {
+        "_path": "site-packages/sqlparse/engine/grouping.py",
+        "path_type": "hardlink",
+        "sha256": "72857ea1b820f844c38624af3642b180708876ac73fb451d408a8fe8179d5fbd",
+        "sha256_in_prefix": "72857ea1b820f844c38624af3642b180708876ac73fb451d408a8fe8179d5fbd",
+        "size_in_bytes": 13492
+      },
+      {
+        "_path": "site-packages/sqlparse/engine/statement_splitter.py",
+        "path_type": "hardlink",
+        "sha256": "fa29e31644c250a42d8762372b53e0b8590490f0a2025c64cd957ae3f08c9740",
+        "sha256_in_prefix": "fa29e31644c250a42d8762372b53e0b8590490f0a2025c64cd957ae3f08c9740",
+        "size_in_bytes": 3758
+      },
+      {
+        "_path": "site-packages/sqlparse/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "43267d4ca4efce0726b90d5c264c408fd4a8030e0cd36f817f409250d58d0ca3",
+        "sha256_in_prefix": "43267d4ca4efce0726b90d5c264c408fd4a8030e0cd36f817f409250d58d0ca3",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "site-packages/sqlparse/filters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3dc4bb0a494dfaaa667d8848778a064f251bedabb5034683fb6d513ff6ec7d06",
+        "sha256_in_prefix": "3dc4bb0a494dfaaa667d8848778a064f251bedabb5034683fb6d513ff6ec7d06",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "site-packages/sqlparse/filters/aligned_indent.py",
+        "path_type": "hardlink",
+        "sha256": "92f3794d5331a2fc97e9c0e79b117eb7e294cf6467cdb4357c8433748c586368",
+        "sha256_in_prefix": "92f3794d5331a2fc97e9c0e79b117eb7e294cf6467cdb4357c8433748c586368",
+        "size_in_bytes": 5110
+      },
+      {
+        "_path": "site-packages/sqlparse/filters/others.py",
+        "path_type": "hardlink",
+        "sha256": "208bf9ec3f55cd0aeaecff0cec829162681f5a46825a664f38e9701add51138f",
+        "sha256_in_prefix": "208bf9ec3f55cd0aeaecff0cec829162681f5a46825a664f38e9701add51138f",
+        "size_in_bytes": 5012
+      },
+      {
+        "_path": "site-packages/sqlparse/filters/output.py",
+        "path_type": "hardlink",
+        "sha256": "38c49a9523efab7b37fabdbaf138eff809ad8d33427e12dac96b5014ee68c951",
+        "sha256_in_prefix": "38c49a9523efab7b37fabdbaf138eff809ad8d33427e12dac96b5014ee68c951",
+        "size_in_bytes": 4001
+      },
+      {
+        "_path": "site-packages/sqlparse/filters/reindent.py",
+        "path_type": "hardlink",
+        "sha256": "cb4f74b13ecc738e01c3d2272aa275bbf07351373cd56d0bd4df8154b569abca",
+        "sha256_in_prefix": "cb4f74b13ecc738e01c3d2272aa275bbf07351373cd56d0bd4df8154b569abca",
+        "size_in_bytes": 9549
+      },
+      {
+        "_path": "site-packages/sqlparse/filters/right_margin.py",
+        "path_type": "hardlink",
+        "sha256": "1e297af76241dd992230fa4f3d970c5224548c3a668458ae01152ee7f8a6ca6f",
+        "sha256_in_prefix": "1e297af76241dd992230fa4f3d970c5224548c3a668458ae01152ee7f8a6ca6f",
+        "size_in_bytes": 1543
+      },
+      {
+        "_path": "site-packages/sqlparse/filters/tokens.py",
+        "path_type": "hardlink",
+        "sha256": "099c03c0ccf339dab4aaf4d120889cef0e7d839e108701603363a9f7ddf666f9",
+        "sha256_in_prefix": "099c03c0ccf339dab4aaf4d120889cef0e7d839e108701603363a9f7ddf666f9",
+        "size_in_bytes": 1553
+      },
+      {
+        "_path": "site-packages/sqlparse/formatter.py",
+        "path_type": "hardlink",
+        "sha256": "8960cf4210f826a6e20388d9a4ad90059cc4a95002c376d1c1d2e03c899ae251",
+        "sha256_in_prefix": "8960cf4210f826a6e20388d9a4ad90059cc4a95002c376d1c1d2e03c899ae251",
+        "size_in_bytes": 7566
+      },
+      {
+        "_path": "site-packages/sqlparse/keywords.py",
+        "path_type": "hardlink",
+        "sha256": "147bb67f60fefea8b173167433043a0379baa47718de88983556ab21a8f144ff",
+        "sha256_in_prefix": "147bb67f60fefea8b173167433043a0379baa47718de88983556ab21a8f144ff",
+        "size_in_bytes": 29464
+      },
+      {
+        "_path": "site-packages/sqlparse/lexer.py",
+        "path_type": "hardlink",
+        "sha256": "dc4de35407af660a59a58eaf5cfb557bd89f4da39ed78281ec1a4c752de1622b",
+        "sha256_in_prefix": "dc4de35407af660a59a58eaf5cfb557bd89f4da39ed78281ec1a4c752de1622b",
+        "size_in_bytes": 2453
+      },
+      {
+        "_path": "site-packages/sqlparse/sql.py",
+        "path_type": "hardlink",
+        "sha256": "6d9c17548441c42e0741fa75601d2163790597f9e0ef689c15f5d8f6ce58c63d",
+        "sha256_in_prefix": "6d9c17548441c42e0741fa75601d2163790597f9e0ef689c15f5d8f6ce58c63d",
+        "size_in_bytes": 20472
+      },
+      {
+        "_path": "site-packages/sqlparse/tokens.py",
+        "path_type": "hardlink",
+        "sha256": "34c51d061dd73ca93e0feb989ffb6a2aa76c0ffb975595b39281c8cb4bc41290",
+        "sha256_in_prefix": "34c51d061dd73ca93e0feb989ffb6a2aa76c0ffb975595b39281c8cb4bc41290",
+        "size_in_bytes": 1661
+      },
+      {
+        "_path": "site-packages/sqlparse/utils.py",
+        "path_type": "hardlink",
+        "sha256": "19b08ddbdb2e6437fb942533414aa3ec0c2d0a2b29b3794721bc8cbf1eb886b9",
+        "sha256_in_prefix": "19b08ddbdb2e6437fb942533414aa3ec0c2d0a2b29b3794721bc8cbf1eb886b9",
+        "size_in_bytes": 3441
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/cli.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/engine/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/engine/__pycache__/filter_stack.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/engine/__pycache__/grouping.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/engine/__pycache__/statement_splitter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/filters/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/filters/__pycache__/aligned_indent.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/filters/__pycache__/others.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/filters/__pycache__/output.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/filters/__pycache__/reindent.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/filters/__pycache__/right_margin.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/filters/__pycache__/tokens.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/formatter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/keywords.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/lexer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/sql.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/tokens.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sqlparse/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/sqlformat",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9f85d66ee878c86409eb172ab0fbc1de743d0c1f3c37dc583e9afe8c7a9f16f2",
+  "size": 34360,
+  "subdir": "noarch",
+  "timestamp": 1602143025702,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sqlparse-0.4.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "0.4.1"
+}

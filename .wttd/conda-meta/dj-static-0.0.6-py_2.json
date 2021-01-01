@@ -1,0 +1,99 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "static"
+  ],
+  "extracted_package_dir": "/Users/fcp/miniconda3/pkgs/dj-static-0.0.6-py_2",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/dj_static-0.0.6-py3.6.egg-info/PKG-INFO",
+    "lib/python3.9/site-packages/dj_static-0.0.6-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.9/site-packages/dj_static-0.0.6-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.9/site-packages/dj_static-0.0.6-py3.6.egg-info/not-zip-safe",
+    "lib/python3.9/site-packages/dj_static-0.0.6-py3.6.egg-info/requires.txt",
+    "lib/python3.9/site-packages/dj_static-0.0.6-py3.6.egg-info/top_level.txt",
+    "lib/python3.9/site-packages/dj_static.py",
+    "lib/python3.9/site-packages/__pycache__/dj_static.cpython-39.pyc"
+  ],
+  "fn": "dj-static-0.0.6-py_2.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/fcp/miniconda3/pkgs/dj-static-0.0.6-py_2",
+    "type": 1
+  },
+  "md5": "a083e7b1c7378c98a89870c356a20bd0",
+  "name": "dj-static",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/fcp/miniconda3/pkgs/dj-static-0.0.6-py_2.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dj_static-0.0.6-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "b9ebd56058710146a45b36a95b2e27ff2311454c2dfe0f0743d2ce4fc48484f6",
+        "sha256_in_prefix": "b9ebd56058710146a45b36a95b2e27ff2311454c2dfe0f0743d2ce4fc48484f6",
+        "size_in_bytes": 1778
+      },
+      {
+        "_path": "site-packages/dj_static-0.0.6-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "f200befaf389a95249187dd5af3b52d59130ffb1947de1cf43bfdfee44d55644",
+        "sha256_in_prefix": "f200befaf389a95249187dd5af3b52d59130ffb1947de1cf43bfdfee44d55644",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "site-packages/dj_static-0.0.6-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/dj_static-0.0.6-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/dj_static-0.0.6-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "918b809a74de9b4ad90762f72628081523f4359e842d0e06fc9ff4e0ebb2800a",
+        "sha256_in_prefix": "918b809a74de9b4ad90762f72628081523f4359e842d0e06fc9ff4e0ebb2800a",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/dj_static-0.0.6-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1c6f30b41ff9f81f11bbe321ec2eb7dc0302439f131207cef08f1a9fe542a161",
+        "sha256_in_prefix": "1c6f30b41ff9f81f11bbe321ec2eb7dc0302439f131207cef08f1a9fe542a161",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/dj_static.py",
+        "path_type": "hardlink",
+        "sha256": "05479c07033d9ebc9c2ac5e3d8d38d049e83fd91ac221b8bdd5696f07be4927e",
+        "sha256_in_prefix": "05479c07033d9ebc9c2ac5e3d8d38d049e83fd91ac221b8bdd5696f07be4927e",
+        "size_in_bytes": 3765
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/dj_static.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "dj-static",
+  "sha256": "d277ab6856e6b30fc6c69fd53de951552949d3ad3af527771468fb14eb4a235c",
+  "size": 5497,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dj-static-0.0.6-py_2.tar.bz2",
+  "version": "0.0.6"
+}

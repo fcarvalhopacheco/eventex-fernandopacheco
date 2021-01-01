@@ -1,0 +1,91 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Users/fcp/miniconda3/pkgs/python-decouple-3.3-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/decouple.py",
+    "lib/python3.9/site-packages/python_decouple-3.3-py3.6.egg-info/PKG-INFO",
+    "lib/python3.9/site-packages/python_decouple-3.3-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.9/site-packages/python_decouple-3.3-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.9/site-packages/python_decouple-3.3-py3.6.egg-info/not-zip-safe",
+    "lib/python3.9/site-packages/python_decouple-3.3-py3.6.egg-info/top_level.txt",
+    "lib/python3.9/site-packages/__pycache__/decouple.cpython-39.pyc"
+  ],
+  "fn": "python-decouple-3.3-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/fcp/miniconda3/pkgs/python-decouple-3.3-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "92fd85f56a12fbb74e15d5ecffa7e313",
+  "name": "python-decouple",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/fcp/miniconda3/pkgs/python-decouple-3.3-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/decouple.py",
+        "path_type": "hardlink",
+        "sha256": "c302688cba0df2f2c87875502568514f7bf3dc19b88d478d73ebc816aa1878cf",
+        "sha256_in_prefix": "c302688cba0df2f2c87875502568514f7bf3dc19b88d478d73ebc816aa1878cf",
+        "size_in_bytes": 6548
+      },
+      {
+        "_path": "site-packages/python_decouple-3.3-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "2597f2a22a3b5ceae0a33d4d4c59cc091bc144c41e757240ead71cc7911bdfa6",
+        "sha256_in_prefix": "2597f2a22a3b5ceae0a33d4d4c59cc091bc144c41e757240ead71cc7911bdfa6",
+        "size_in_bytes": 16248
+      },
+      {
+        "_path": "site-packages/python_decouple-3.3-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "916a5b3cc93dff0a2276f9f6438ae0a36f2c6a7cdc22f2eda56283c6e97aaaa9",
+        "sha256_in_prefix": "916a5b3cc93dff0a2276f9f6438ae0a36f2c6a7cdc22f2eda56283c6e97aaaa9",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "site-packages/python_decouple-3.3-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/python_decouple-3.3-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/python_decouple-3.3-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e19fee7e0a2da83094b40b60b5a9a95e5fcffa3292f47e627c37d4d09de10f95",
+        "sha256_in_prefix": "e19fee7e0a2da83094b40b60b5a9a95e5fcffa3292f47e627c37d4d09de10f95",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/decouple.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-decouple",
+  "sha256": "7eb742821b9274f725eecad4105b09368420aeef0e47c680eadfcfb85a48dc8a",
+  "size": 10910,
+  "subdir": "noarch",
+  "timestamp": 1597244511637,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-decouple-3.3-pyh9f0ad1d_0.tar.bz2",
+  "version": "3.3"
+}

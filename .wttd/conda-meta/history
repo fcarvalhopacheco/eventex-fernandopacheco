@@ -1,0 +1,51 @@
+==> 2020-12-30 07:15:07 <==
+# cmd: /Users/fcp/miniconda3/bin/conda create --prefix ./.wttd python
+# conda version: 4.9.2
++conda-forge/noarch::pip-20.3.3-pyhd8ed1ab_0
++conda-forge/noarch::tzdata-2020f-he74cb21_0
++conda-forge/noarch::wheel-0.36.2-pyhd3deb0d_0
++conda-forge/osx-64::ca-certificates-2020.12.5-h033912b_0
++conda-forge/osx-64::certifi-2020.12.5-py39h6e9494a_0
++conda-forge/osx-64::libcxx-11.0.0-h4c3b8ed_1
++conda-forge/osx-64::libffi-3.3-h046ec9c_2
++conda-forge/osx-64::ncurses-6.2-h2e338ed_4
++conda-forge/osx-64::openssl-1.1.1i-h35c211d_0
++conda-forge/osx-64::python-3.9.1-h1d169a7_2_cpython
++conda-forge/osx-64::python_abi-3.9-1_cp39
++conda-forge/osx-64::readline-8.0-h0678c8f_2
++conda-forge/osx-64::setuptools-49.6.0-py39h2c36a5b_2
++conda-forge/osx-64::sqlite-3.34.0-h17101e1_0
++conda-forge/osx-64::tk-8.6.10-h0419947_1
++conda-forge/osx-64::xz-5.2.5-haf1e3a3_1
++conda-forge/osx-64::zlib-1.2.11-h7795811_1010
+# update specs: ['python']
+==> 2020-12-30 07:16:15 <==
+# cmd: /Users/fcp/miniconda3/bin/conda install django
+# conda version: 4.9.2
++conda-forge/noarch::asgiref-3.3.1-pyhd8ed1ab_0
++conda-forge/noarch::django-3.1.4-pyhd8ed1ab_0
++conda-forge/noarch::pytz-2020.5-pyhd8ed1ab_0
++conda-forge/noarch::sqlparse-0.4.1-pyh9f0ad1d_0
+# update specs: ['django']
+==> 2020-12-31 16:32:10 <==
+# cmd: /Users/fcp/miniconda3/bin/conda install python-decouple
+# conda version: 4.9.2
++conda-forge/noarch::python-decouple-3.3-pyh9f0ad1d_0
+# update specs: ['python-decouple']
+==> 2020-12-31 16:58:41 <==
+# cmd: /Users/fcp/miniconda3/bin/conda install dj-database-url
+# conda version: 4.9.2
++conda-forge/noarch::dj-database-url-0.5.0-py_0
+# update specs: ['dj-database-url']
+==> 2020-12-31 17:07:34 <==
+# cmd: /Users/fcp/miniconda3/bin/conda install dj-static
+# conda version: 4.9.2
++conda-forge/noarch::dj-static-0.0.6-py_2
++conda-forge/noarch::pystache-0.5.4-py_1
++conda-forge/noarch::static-1.1.1-pyh9f0ad1d_0
+# update specs: ['dj-static']
+==> 2020-12-31 17:34:37 <==
+# cmd: /Users/fcp/miniconda3/bin/conda install gunicorn
+# conda version: 4.9.2
++conda-forge/osx-64::gunicorn-20.0.4-py39h6e9494a_2
+# update specs: ['gunicorn']
