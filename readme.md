@@ -252,7 +252,7 @@ called `~/wttd/core/static/`
 
 19. Lets register all the dependecies
     ```
-    pip freeze > requirements.txt
+    pip list --format=freeze  > requirements.txt
     ```
 20. Create a new text file on `~/wttd/Profile` , and type:
     ```
@@ -281,38 +281,38 @@ called `~/wttd/core/static/`
     git add .
     git commit -S -am 'import project'
     ```
+---
+## Deploying on heroku
 
-- Deploy on heroku
-
-    1. On terminal, type
+1. On terminal, type
     ```zsh
-    heroku apps:create eventex-fcp
+    # Change fernandopacheco with your own name
+    heroku apps:create eventex-fernandopacheco
     ```
 
-    2. Check if git knows about our heroku
+2. Check if git knows about our heroku
     ```zsh
     git remote -v
 
-    heroku  https://git.heroku.com/eventex-fcp.git (fetch)
-    heroku  https://git.heroku.com/eventex-fcp.git (push)
+    heroku  https://git.heroku.com/eventex-fernandopacheco.git (fetch)
+    heroku  https://git.heroku.com/eventex-fernandopacheco.git (push)
     ```
 
-    3. Open it
+3. Open it
     ```zsh
     heroku open
     ```
-    4. Lets config heroku enviromenti
+4. Lets config heroku environment
     ```zsh
     heroku config:set SECRET_KEY=''
-    >ps: type cat .env on terminal and add the secret key inside the heroku command
+    #ps: type cat .env on terminal and add the secret key inside the heroku command
 
     heroku config:set DEBUG=True
-   ```
+    ```
 
-- Push your project to heroku
-    1. On terminal, type:
+5. Push your project to heroku
     ```zsh
     git push heroku master --force
-
+    ```
 
 

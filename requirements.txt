@@ -1,12 +1,15 @@
-asgiref @ file:///home/conda/feedstock_root/build_artifacts/asgiref_1605523041333/work
+asgiref==3.3.1
 certifi==2020.12.5
 dj-database-url==0.5.0
 dj-static==0.0.6
-Django @ file:///home/conda/feedstock_root/build_artifacts/django_1606808783925/work
-gunicorn @ file:///Users/runner/miniforge3/conda-bld/gunicorn_1608073969451/work
+Django==3.1.4
+gunicorn==20.0.4
+pip==20.3.3
 psycopg2-binary==2.8.6
 pystache==0.5.4
 python-decouple==3.3
-pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1608904108784/work
-sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1602142927465/work
-static @ file:///home/conda/feedstock_root/build_artifacts/static_1603126488714/work
+pytz==2020.5
+setuptools==49.6.0.post20201009
+sqlparse==0.4.1
+static==1.1.1
+wheel==0.36.2
