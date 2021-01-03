@@ -155,7 +155,7 @@ called `~/wttd/core/static/`
     TO: $1="{% static '$2' %}"
     ```
 -----
-- Deploying eventex on HEROKU
+## Get Ready for HEROKU
 
 1. Open www.heroku.com and create your account
 
@@ -326,4 +326,20 @@ called `~/wttd/core/static/`
     
     # run the following again:
     git push heroku main --force 
+    ```
+   
+   ----
+## Exploring and Playing with HEROKU
+1. Create a NOT FOUND page when a requested is unkown
+    - On terminal, type the following:
+    ```zsh
+    heroku config:set DEBUG=False
+    
+    # Now open https://eventex-xxxxxxxxx.herokuapp.com/nao-existe/   
+    # where xxx is your own project name
+    ```
+
+2. Change ALLOWED_HOSTS, on `~/wttd/eventex/settings.py`
+    ```python
+    ALLOWED_HOSTS = []
     ```
