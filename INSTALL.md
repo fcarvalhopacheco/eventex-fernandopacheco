@@ -364,5 +364,18 @@ called `~/wttd/core/static/`
     git push heroku main --force 
     heroku config:set DEBUG=False
     ```
+--- 
+ 1. Configure the static files 
+    ```zsh
+    manage collectstatic
+    # say yes. This will copy all static files from eventex project and paste on 
+    # a new folder called staticfiles  
+    ```
     
-  
+ 2. Run again:
+    ```zsh
+    DEBUG=False manage runserver
+    ```
+    
+ 3. Add staticfiles on .gitignore:
+ 
