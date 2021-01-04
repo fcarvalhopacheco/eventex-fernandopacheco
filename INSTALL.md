@@ -335,11 +335,31 @@ called `~/wttd/core/static/`
     
     # Now open https://eventex-xxxxxxxxx.herokuapp.com/nao-existe/   
     # where xxx is your own project name
-    ```
+   
+   # Another way to do this is on unix: 
+   # (runserver > uses decouple > verify on local env > if don'ex exist> then acces .env:
+   DEBUG=False manage runserver
+   ```
 
-2. Change ALLOWED_HOSTS, on `~/wttd/eventex/settings.py`
+2. Add the following text on `~/wttd/.env`
     ```python
-    ALLOWED_HOSTS = []
+    # The first two allowed host are for development, the following are for production
+    ALLOWED_HOSTS=127.0.0.1, .localhost, .herokuapp.com
     ```
 
-#
+3. Change the following on `~/wttd/eventex/settings.py`
+    ```python
+    from decouple import config, Csv 
+    ALLOWED_HOST = config('ALLOWED_HOSTS', default='', cast=Csv())
+    ```
+   
+4. Rerun the following on your terminal:
+    ```zsh
+    DEBUG=False manage runserver 
+    ```   
+ 5. Config heroku once again:
+    ```zsh
+    heroku config:set ALLOWED_HOSTS=.herokuapp.com
+    ```
+    
+ 6. 
