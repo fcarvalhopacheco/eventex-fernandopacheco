@@ -315,7 +315,8 @@ called `~/wttd/core/static/`
 
 5. Push your project to heroku
     ```zsh
-    git push heroku main --force
+    # u might have master instead of main...
+    git push heroku main --force 
     ```
     - if fails because of setuptools, try:                                                                                   
     ```zsh
@@ -360,6 +361,8 @@ called `~/wttd/core/static/`
  5. Config heroku once again:
     ```zsh
     heroku config:set ALLOWED_HOSTS=.herokuapp.com
+    git push heroku main --force 
+    heroku config:set DEBUG=False
     ```
     
- 6. 
+  
