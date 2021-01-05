@@ -365,6 +365,7 @@ called `~/wttd/core/static/`
     heroku config:set DEBUG=False
     ```
 --- 
+# Configure Staticfiles
  1. Configure the static files 
     ```zsh
     manage collectstatic
@@ -378,4 +379,53 @@ called `~/wttd/core/static/`
     ```
     
  3. Add staticfiles on .gitignore:
+    ```
+    .env
+    .idea
+    *.sqlite3
+    *pyc
+    __pycache__
+    staticfiles
+    ```
+---
+## Creating Tests
+ 1. On your terminal, run:
+    ```zsh
+    manage test
+    
+    # you should see:
+    
+    System check identified no issues (0 silenced).
+
+    ----------------------------------------------------------------------
+    Ran 0 tests in 0.000s
+    
+    OK
+    ```
+    
+ 2. Open `~/wttd/eventex/core/tests.py`
+    ```python
+    # First test
+    class HomeTest(TestCase):
+        def setUp(self):
+            self.response = self.client.get('/')
+        
+        def test_get(self):
+            """GET / must return status code 200"""
+            self.assertEqual(200, self.response.status_code)
+        
+        def test_template(self):
+            """Must use index.html"""
+            self.assertTemplateUsed(self.response, 'index.html')
+    ```
+ 3. Run `manage test` again, you should see:
+    ```
+    Creating test database for alias 'default'...
+    System check identified no issues (0 silenced).
+    ----------------------------------------------------------------------
+    Ran 2 test in 0.009s
+    OK
+    Destroying test database for alias 'default'...
+    ```
+    
  
